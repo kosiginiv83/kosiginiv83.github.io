@@ -791,15 +791,3 @@ footer {
   margin-right: 37px;
   margin-left: 150px;
 }
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-d#iv#pix {
-	background-image: url(maket/06-psd.jpg);
-	background-size: 100% 100%;
-	position: absolute;
-	width: 1080px;
-	height: 1820px;
-	opacity: 0.4;
-	top: 0px;
-	z-index: 999;
-}
