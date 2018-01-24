@@ -1,42 +1,238 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>index.html</title>
-		<meta charset="utf-8">
-		
-			<!-- Yandex.Metrika counter -->
-			<script type="text/javascript" >
-				(function (d, w, c) {
-					(w[c] = w[c] || []).push(function() {
-						try {
-							w.yaCounter46377549 = new Ya.Metrika({
-								id:46377549,
-								clickmap:true,
-								trackLinks:true,
-								accurateTrackBounce:true
-							});
-						} catch(e) { }
-					});
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Graduation Project</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
 
-					var n = d.getElementsByTagName("script")[0],
-						s = d.createElement("script"),
-						f = function () { n.parentNode.insertBefore(s, n); };
-					s.type = "text/javascript";
-					s.async = true;
-					s.src = "https://mc.yandex.ru/metrika/watch.js";
+    <header>
+      <section id="header-block1">
+        <h1>SITENAME</h1>
+        <article>
+          <div class="icon" id="header-block1-digg"></div>
+          <div class="icon" id="header-block1-mail"></div>
+          <div class="icon" id="header-block1-flickr"></div>
+          <div class="icon" id="header-block1-call"></div>
+        </article>
+      </section>
+      <section id="header-block2">
+        <div id="menu">
+          <p class="menu-active">HOME</p>
+          <p>ABOUT</p>
+          <p>PORTFOLIO</p>
+          <p>BLOG</p>
+          <p id="last-menu-item">CONTACT</p>
+          <div id="search">
+            <p>SEARCH</p>
+            <form class="form">
+              <label class="form-field">
+                <span>Поиск</span>
+                <input type="text" name="search-string /">
+              </label>
+              <div class="form-button">
+                <button type="submit" id="loupe"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
 
-					if (w.opera == "[object Opera]") {
-						d.addEventListener("DOMContentLoaded", f, false);
-					} else { f(); }
-				})(document, window, "yandex_metrika_callbacks");
-			</script>
-			<noscript><div><img src="https://mc.yandex.ru/watch/46377549" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-			<!-- /Yandex.Metrika counter -->
-		
-    </head>
-    <body>
+    <main>
+      <section class="main" id="main-block1">
+        <div id="main-block1-div1">
+          <article>
+            <div id="main-block1-div1-divA">
+              <h2>WELCOME TO OUR SITE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio,
+                sit amet dictum quam augue vel urna. Proin eleifend, erat eu
+                rhoncus suscipit, nisl velit pharetra leo
+              </p>
+            </div>
+            <div id="main-block1-div1-divB">
+              <p class="main-block1-button">LEARN MORE</p>
+              <p class="main-block1-button" id="button2">OUR WORK</p>
+            </div>
+          </article>
+        </div>
+        <div id="main-block1-div2">
+          <p>
+            You're here: Home > Welcome..
+          </p>
+        </div>
+        <img id="eye" src="pics/eye.jpg" alt="abstract drawing">
+        <img id="abstract" src="pics/abstract.jpg" alt="abstract drawing">
+      </section>
+      <section class="main" id="main-block2">
+        <div id="main-block2-div1">
+          <h2>FROM THE BLOG</h2>
+          <article class="blog">
+            <h3>Blog Post Name Here</h3>
+            <h4>October 15th 2010 <span>|</span> 7 comments</h4>
+            <div class="blog-img" id="main-block2-div1-divA"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio,
+              sit amet dictum quam augue vel urna. Proin eleifend, erat eu
+              rhoncus suscipit, nisl velit pharetra leo
+              <a href=#>Continue Reading...</a>
+            </p>
+          </article>
+          <article class="blog">
+            <h3>Blog Post Name Here</h3>
+            <h4>October 15th 2010 <span>|</span> 7 comments</h4>
+            <div class="blog-img" id="main-block2-div1-divB"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              feugiat, nulla vitae accumsan feugiat, odio nisi tristique odio,
+              sit amet dictum quam augue vel urna. Proin eleifend, erat eu
+              rhoncus suscipit, nisl velit pharetra leo
+              <a href=#>Continue Reading...</a>
+            </p>
+          </article>
+          <div>THE BLOG</div>
+        </div>
+        <div id="main-block2-div2">
+          <article id="main-block2-div2-article1">
+            <div class="tabs">
+              <input id="tab1" type="radio" name="tabs" checked>
+              <label id="tab1-label" for="tab1" title="Comments">Comments</label>
+
+              <input id="tab2" type="radio" name="tabs">
+              <label for="tab2" title="Categories">Categories</label>
+
+              <input id="tab3" type="radio" name="tabs">
+              <label id="tab3-label" for="tab3" title="Archives">Archives</label>
+
+              <section id="content-tab1">
+                  <p>
+          		      Lorem ipsum dolor sit amet, consectetur accumsan feugiat!
+                  </p>
+                  <hr>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur accumsan feugiat!
+                  </p>
+              </section>
+              <section id="content-tab2">
+                  <p>
+                    Lorem ipsur accumsan feugiat!
+                  </p>
+                  <hr>
+                  <p>
+                    Lorem ipsum doloetur accumsan feugiat!
+                  </p>
+              </section>
+              <section id="content-tab3">
+                  <p>
+                    Lorem i, consectetur accumsan feugiat!
+                  </p>
+                  <hr>
+                  <p>
+                    Lorem ipsum , coan feugiat!
+          		    </p>
+              </section>
+            </div>
+          </article>
+          <article class="main-block2-article" id="main-block2-div2-article2">
+            <h3 class="h3">WHO WE ARE</h3>
+            <div id="who"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur accumsan feugiat...
+              <a href=#>Read More!</a>
+            </p>
+          </article>
+          <article class="main-block2-article" id="main-block2-div2-article3">
+            <h3 class="h3">SPONSORS</h3>
+            <div class="sponsors" id="sponsor1"></div>
+            <div class="sponsors" id="sponsor2"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer" id="footer-block1">
+        <article class="footer-div" id="footer-block1-div1">
+          <h3 class="h3">GET A FREE QUOTE</h3>
+          <form class="footer-form">
+            <input type="text" id="name" name="name"
+                      placeholder="Your Name">
+            <input type="text" id="surname" name="surname"
+                      placeholder="Last Name">
+            <textarea rows="4" cols="31" id="comment" name="comment"
+                      placeholder="Bla Bla Bla.."></textarea>
+            <input type="email" id="email" name="email"
+                      placeholder="Your E-mail address">
+          </form>
+          <div class="footer-button" id="submit">SUBMIT</div>
+        </article>
+        <article class="footer-div" id="footer-block1-div2">
+          <h3 class="h3">OUR RECENT PROJECTS</h3>
+          <div class="footer-projects" id="sky"></div>
+          <div class="footer-projects" id="choco"></div>
+          <div class="footer-projects" id="pink"></div>
+          <div class="footer-projects" id="arm"></div>
+          <div class="footer-button" id="portfolio">PORTFOLIO</div>
+        </article>
+        <article class="footer-div" id="footer-block1-div3">
+          <h3 class="h3">TWITTER STREAM</h3>
+          <p class="footer-twitter">
+            Lorem ipsum dolor sit amet, consectetur accumsan feugiat!
+            <a href=#>4 Minutes Ago..</a>
+          </p>
+          <p class="footer-twitter">
+            Lorem ipsum dolor sit amet, consectetur accumsan feugiat!
+            <a href=#>4 Minutes Ago..</a>
+          </p>
+          <p class="footer-twitter">
+            Lorem ipsum dolor sit amet, consectetur accumsan feugiat!
+            <a href=#>4 Minutes Ago..</a>
+          </p>
+          <div class="footer-button">FOLLOW US</div>
+        </article>
+      </section>
+      <section class="footer" id="footer-block2">
         <p>
-            just nothing
+          All Copyrights Reserved | 2010 | WebsiteName
         </p>
-    </body>
+        <p id="footer-links">
+          <a href=#>Home</a> |
+          <a href=#>About</a> |
+          <a href=#>Portfolio</a> |
+          <a href=#>Blog</a> |
+          <a href=#>Contact</a>
+        </p>
+      </section>
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script>
+      $(function(f){
+        var element = f('#header-block1');
+        f(window).scroll(function(){
+            element['fade'+ (f(this).scrollTop() < 400 ? 'In': 'Out')](100);
+        });
+      });
+
+      function windowSize(){
+        if ($(window).width() >= '1008'){
+          $('#eye').show(10);
+          $('#abstract').show(10);
+        } else {
+          $('#eye').hide(10);
+          $('#abstract').hide(10);
+        }
+      }
+      $(window).on('load resize',windowSize);
+    </script>
+
+
+    <div id="pix"></div>
+  </body>
 </html>
